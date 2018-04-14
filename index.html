@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>NY Times Search</title>
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
+        crossorigin="anonymous">
+    <!--My Style CSS Link -->
+    <link rel="stylesheet" type="text/css" href="style.css" />
+</head>
+
+<body>
+    <div class="container">
+
+        <div class="jumbotron">
+            <div class="container">
+                <h1>
+                    <i class="glyphicon glyphicon-folder-open"></i> New York Times Search</h1>
+            </div>
+        </div>
+
+
+        <div class="row">
+            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                    <div class="panel panel-default">
+                            <div class="panel-heading" id="panelHead">
+                              <h3 class="panel-title">Search Parameters</h3>
+                            </div>
+                    <div class="form-group">
+                        <h2 >Search Term</h2>
+                        <input type="text" class="form-control" id="searchTerm" placeholder="Search">
+                        <h2>Number of Records to Retrieve</h2>
+                        <select class="form-control">
+                            <option id="resultOne">1</option>
+                            <option id="resultFive">5</option>
+                            <option id="resultTen">10</option>
+                        </select>
+
+                        <h2>Start Year</h2>
+                        <input type="text" class="form-control" id="startYear" placeholder="Optional">
+
+                        <h2>End Year</h2>
+                        <input type="text" class="form-control" id="endYear" placeholder="Optional">
+                        <br>
+                        <br>
+                        <div class="btn-group" role="group" aria-label="...">
+                            <button type="button" class="btn btn-default" id="searchBtn">Search </button>
+                            <button type="button" class="btn btn-default" id="clearBtn">Clear Search</button>
+                              </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    
+
+
+    <div class="row ">
+        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 ">
+                <div class="panel panel-default">
+                        <div class="panel-heading" id="panelHead">
+                          <h3 class="panel-title">Top Articles</h3>
+                        </div>
+                        <div class="panel-body">
+                          
+                        </div>
+                      </div>
+        </div>
+    </div>
+
+
+    </div>
+</div>
+    <!-- jQuery CDN -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js "></script>
+    <!-- Bootstrap JavaScript CDN -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js "></script>
+</body>
+
+</html>
